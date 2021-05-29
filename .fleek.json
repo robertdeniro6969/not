@@ -1,4 +1,4 @@
-{
+/bin/sh: cd
  "build": {
    "image": "node:alpine",
    "command": "npm install && npm run build && echo $SOME_ENV",
