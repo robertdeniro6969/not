@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>❌</title>
+    <meta
+      name="description"
+      content="The ultimate resource for who is cancelled and who is not cancelled."
+    />
+    <meta name="author" content="The IPFS Docs team." />
+    <style>
+      body {
+        margin: 15px auto;
+        max-width: 650px;
+        line-height: 1.2;
+        font-family: sans-serif;
+        font-size: 2em;
+        color: #000;
+        background: #FFF;
+      }
+    </style>
+  </head>
+  <body onload="main()">
+    <h1>NOT A WEBSITE.</h1>
+    <p id="output_p"></p>
+    <script>
+      function main() {
+        const facts = [
+          'Bill Cosby is cancelled.',
+          'Louis C.K. is cancelled.',
+          'Ray Romano is not cancelled.',
+          'Kevin Spacey is cancelled.',
+          'J.K. Rowling is cancelled.',
+          'Ellen DeGeneres is cancelled.',
+          'Harvey Weinstein is cancelled.',
+          'Shane Dawson is cancelled.',
+          'Jeffree Star is cancelled.',
+          'Adam Sandler is not cancelled.',
+          'Steve Buscemi is not cancelled.',
+          'Keanu Reeves is not cancelled.',
+          'Stevie Wonder is not cancelled.',
+          'Jimmy Kimmel is cancelled.',
+          'Bill Murray is not cancelled.',
+          'Will Arnett is not cancelled.',
+          'Weird Al Yankovic is not cancelled.',
+          'Peter Dinklage is not cancelled.',
+          'Jesse Eisenberg is not cancelled.',
+          'Michael Cera is not cancelled.',
+          'Jared Fogle is cancelled.',
+          'Eric Andre is not cancelled.',
+          'Woody Harrelson is not cancelled.',
+          'Lena Dunham is cancelled.',
+          'Roseanne Barr is cancelled.',
+          'James Charles is cancelled.',
+          'R. Kelly is cancelled.',
+          'Octavia Spencer is not cancelled.',
+          'Mark Wahlberg is cancelled.',
+          'David Dobrik is cancelled.',
+          'Billie Eilish is not cancelled.',
+          'Will Smith is not cancelled.',
+          'Kevin Smith is not cancelled.',
+          'Joaquin Phoenix is not cancelled.',
+          'Chelsea Handler is cancelled.',
+          'Sean Penn is cancelled.',
+          'Jackie Chan is not cancelled.',
+          'Britney Spears is not cancelled.',
+          'Andrew Garfield is not cancelled.',
+          'Jack Black is not cancelled.',
+          'Macaulay Culkin is not cancelled.',
+          'O.J. Simpson is cancelled.',
+          'Zac Efron is not cancelled.',
+          'LeBron James is not cancelled.',
+          'Steve Carell is not cancelled.',
+          'Michael Richards is cancelled.',
+          'Margot Robbie is not cancelled.',
+          'Fred Armisen is not cancelled.',
+          'Emma Stone is not cancelled.',
+          'Adele is not cancelled.',
+          'Jake Gyllenhaal is not cancelled.',
+          'Wes Anderson is not cancelled.',
+          'Michael Caine is not cancelled.',
+          'Jordan Peele is not cancelled.',
+          'Maria Bakalova is not cancelled.',
+          'Bong Joon-ho is not cancelled.',
+
+
+
+       ]
+        document.querySelector('#output_p').innerHTML =
+          facts[Math.floor(Math.random() * facts.length)]
+      }
+    </script>
+  </body>
+</html>
